@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="0.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="typeClip">
+      <rect x="204" y="44" width="0" height="24">
+        <animate attributeName="width"
+                 values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144"
+                 keyTimes="0;0.0625;0.125;0.1875;0.25;0.3125;0.375;0.4375;0.5;0.5625;0.625;0.6875;0.75;0.8125;0.875;0.9375;1"
+                 calcMode="discrete"
+                 dur="3.2s" begin="0.8s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect width="700" height="200" fill="#000000"/>
+  <text x="24" y="62" fill="#ffffff" font-family="'Courier New', Courier, monospace"
+        font-size="15" filter="url(#glow)">guest@Iosif00024:~$ </text>
+  <text x="204" y="62" fill="#ffffff" font-family="'Courier New', Courier, monospace"
+        font-size="15" filter="url(#glow)" clip-path="url(#typeClip)">echo "Hi there!"</text>
+  <rect x="204" y="50" width="9" height="15" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0" dur="0.8s" begin="0s"
+             calcMode="discrete" repeatCount="1" fill="freeze"/>
+  </rect>
+  <rect x="204" y="50" width="9" height="15" fill="#ffffff" opacity="0">
+    <animate attributeName="opacity" values="1;0" keyTimes="0;1"
+             calcMode="discrete" dur="3.2s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="x"
+             values="204;213;222;231;240;249;258;267;276;285;294;303;312;321;330;339;348"
+             keyTimes="0;0.0625;0.125;0.1875;0.25;0.3125;0.375;0.4375;0.5;0.5625;0.625;0.6875;0.75;0.8125;0.875;0.9375;1"
+             calcMode="discrete" dur="3.2s" begin="0.8s" fill="freeze"/>
+  </rect>
+  <text x="24" y="92" fill="#ffffff" font-family="'Courier New', Courier, monospace"
+        font-size="15" filter="url(#glow)" opacity="0">Hi there!
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.2s" fill="freeze"/>
+  </text>
+  <text x="24" y="122" fill="#ffffff" font-family="'Courier New', Courier, monospace"
+        font-size="15" filter="url(#glow)" opacity="0">guest@Iosif00024:~$
+    <animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.4s" fill="freeze"/>
+  </text>
+  <rect x="204" y="110" width="9" height="15" fill="#ffffff" opacity="0">
+    <animate attributeName="opacity" values="1;0" dur="0.8s" begin="4.4s"
+             calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+</svg>

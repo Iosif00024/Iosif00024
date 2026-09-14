@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+*{margin:0;padding:0}body{background:#000;color:#33ff33;font:14px Courier New,monospace;padding:20px;min-height:100vh}
+#t{white-space:pre-wrap;word-break:break-all;line-height:1.5}
+.c{display:inline-block;width:8px;height:16px;background:#33ff33;animation:b .7s infinite;vertical-align:text-bottom}
+@keyframes b{0%,49%{opacity:1}50%,100%{opacity:0}}
+.g{color:#fff;font-size:18px;margin-top:12px}
+</style></head><body><div id="t"></div><script>
+const L=[{t:"user@terminal:~$ echo \"Hi there!\"",d:400},{t:"Hi there!",c:"g",d:500}],T=document.getElementById('t');
+function go(i=0){if(i>=L.length)return;const l=L[i],el=document.createElement('div');if(l.c)el.className=l.c;
+T.appendChild(el);const cur=document.createElement('span');cur.className='c';el.appendChild(cur);let j=0;
+(function tc(){if(j<l.t.length){cur.insertAdjacentText('beforebegin',l.t[j++]);setTimeout(tc,15+Math.random()*20)}
+else{cur.remove();setTimeout(()=>go(i+1),l.d)}})()}
+go()
+</script></body></html>

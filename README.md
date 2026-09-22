@@ -1,1 +1,1 @@
-<img width="2688" height="1512" alt="wheat" src="https://github.com/user-attachments/assets/2d0bd137-f8ca-46d8-89f2-297d846c878d" />
+<img width="4119" height="6178" alt="wheat_sky" src="https://github.com/user-attachments/assets/a96e5238-5412-40c7-98b5-69d727ec5c26" />

@@ -2,22 +2,11 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/stats1-dark.svg">
-    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/stats1-light.svg" alt="Stats 1" width="48%">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/contributions-light.svg">
+    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/contributions-dark.svg" width="100%">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/stats2-dark.svg">
-    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/stats2-light.svg" alt="Stats 2" width="48%">
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/contributions-dark.svg">
-    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/contributions-light.svg" alt="Contributions" width="48%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-dark.svg">
-    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-light.svg" alt="Languages" width="48%">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-light.svg">
+    <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-dark.svg" width="100%">
   </picture>
 </div>

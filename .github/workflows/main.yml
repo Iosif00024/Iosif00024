@@ -1,0 +1,24 @@
+- name: GitHub Stats Enhanced
+  uses: hnrobert/github-stats-enhanced@v0.1.2
+  with:
+    github_user_name: 
+    self_github_token:
+    github_token: ${{ secrets.PROFILE }}
+    mode: all
+    data_file:
+    output_dir:
+    theme:
+    exclude_repos:
+    contrib_exclude_repos:
+    responsive:
+    stats_width:
+    stats_height:
+    contributions_width:
+    contributions_height:
+    languages_width:
+    languages_count:
+    exclude_languages:
+    weight_contributed_repos:
+    generate_report:
+    target_repo:
+    target_branch:

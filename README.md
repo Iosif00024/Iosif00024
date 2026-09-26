@@ -1,5 +1,4 @@
 <div align="center">
-  <h1>Hi there!</h1>
   <table>
     <tr>
       <td width="48%" align="center" valign="middle">

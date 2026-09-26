@@ -1,33 +1,17 @@
 name: GitHub Stats
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
     steps:
-- name: GitHub Stats Enhanced
-  uses: hnrobert/github-stats-enhanced@v0.1.2
-  with:
-    github_user_name: 
-    self_github_token:
-    github_token: ${{ secrets.PROFILE }}
-    mode: all
-    data_file:
-    output_dir:
-    theme:
-    exclude_repos:
-    contrib_exclude_repos:
-    responsive:
-    stats_width:
-    stats_height:
-    contributions_width:
-    contributions_height:
-    languages_width:
-    languages_count:
-    exclude_languages:
-    weight_contributed_repos:
-    generate_report:
-    target_repo:
-    target_branch:
+      - name: GitHub Stats Enhanced
+        uses: hnrobert/github-stats-enhanced@v0.1.2
+        with:
+          github_user_name: Iosif00024
+          github_token: ${{ secrets.PROFILE }}
+          mode: all

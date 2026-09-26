@@ -22,7 +22,7 @@
     stroke="var(--s-bd)" stroke-width="1"/>
     <g class="i0">
     <text x="92" y="90.4" fill="var(--s-tp)" font-size="28" font-weight="700"
-      text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">21</text>
+      text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">22</text>
     <text x="92" y="109.76" fill="var(--s-ts)" font-size="13" font-weight="500"
       text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Total Commits</text>
     </g>
@@ -33,7 +33,7 @@
     
     <g class="i1">
     <text x="253" y="81.75999999999999" fill="var(--s-tp)" font-size="19" font-weight="600"
-      text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">21</text>
+      text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">22</text>
     <text x="253" y="95.67999999999999" fill="var(--s-ts)" font-size="11"
       text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">Commits</text>
     </g>

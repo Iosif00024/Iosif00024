@@ -1,2 +1,1 @@
-# Hi there!
-<img width="4119" height="6178" alt="[photo](https://www.pexels.com/photo/lonely-tree-in-golden-wheat-field-at-sunset-30336138/)" src="https://github.com/user-attachments/assets/a96e5238-5412-40c7-98b5-69d727ec5c26" />
+<img width="6084" height="4056" alt="github_ppp" src="https://github.com/user-attachments/assets/da0556e8-6707-42a4-a658-98c6f7a90f24" />

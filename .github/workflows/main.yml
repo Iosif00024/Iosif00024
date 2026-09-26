@@ -23,10 +23,17 @@ jobs:
           github_token: ${{ secrets.PROFILE }}
           mode: all
 
-      - name: List generated SVG files
+      - name: Clean up unused files
         shell: bash
         run: |
-          find . -type f -name "*.svg" -print
+          cd dist
+          
+          find . -type f ! -name "stats1-*.svg" ! -name "stats2-*.svg" ! -name "contributions-*.svg" ! -name "languages-*.svg" -delete
+          
+          rm -f *-responsive.svg *-adaptive-responsive.svg
+          
+          echo "Kept files:"
+          ls -la *.svg
 
       - name: Commit generated stats
         shell: bash
@@ -37,5 +44,9 @@ jobs:
           git add dist/
           git status --short
 
-          git commit -m "Update GitHub stats" || echo "No changes to commit"
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update GitHub stats"
+            git push origin HEAD:main
+          fi

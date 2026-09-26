@@ -1,7 +1,5 @@
-<img width="6133" height="4089" alt="img" src="https://github.com/user-attachments/assets/a3c8ddef-663e-49e7-a22c-5bd8437049f2"/>
-
+<img width="4160" height="6240" src="https://github.com/user-attachments/assets/461f8c0c-8632-4fba-b8b1-966648e0cb70" />
 <div align="center">
-  <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-light.svg">
     <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-dark.svg" width="100%">
   </picture>

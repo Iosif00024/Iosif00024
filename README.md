@@ -1,10 +1,10 @@
 <div align="center">
   <table>
     <tr>
-      <td width="42%" align="center" valign="top">
+      <td width="36%" valign="middle" align="center">
         <img src="https://github.com/user-attachments/assets/461f8c0c-8632-4fba-b8b1-966648e0cb70" alt="Profile artwork" width="100%" />
       </td>
-      <td width="58%" align="center" valign="middle">
+      <td width="64%" valign="middle" align="center">
         <picture>
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-light.svg">
           <img src="https://raw.githubusercontent.com/Iosif00024/Iosif00024/main/dist/languages-dark.svg" alt="Languages statistics" width="100%" />

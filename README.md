@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="border: 2px solid #333; border-radius: 10px; padding: 20px; display: inline-block;">
   <table>
     <tr>
       <td width="24%" align="center" valign="middle">
